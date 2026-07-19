@@ -1,0 +1,9 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+  - '!packages/ogpu'
+allowBuilds:
+  '@tailwindcss/oxide': true
+  workerd: true
+  sharp: true
+  esbuild: true
