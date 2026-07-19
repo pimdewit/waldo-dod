@@ -1,0 +1,23 @@
+{
+  "name": "waldo-dod",
+  "version": "1.0.0",
+  "description": "Where's Waldo–style online game with doodle line-art, WebGPU and bitECS",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter app dev",
+    "build": "pnpm -r build",
+    "check": "pnpm -r check",
+    "test": "pnpm -r --if-present test:unit -- --run"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.9.0",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "prettier-plugin-svelte": "^4.1.1",
+    "prettier-plugin-tailwindcss": "^0.8.1"
+  }
+}
